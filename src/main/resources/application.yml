@@ -13,3 +13,9 @@ spring:
     chat:
       client:
         advisor: DEBUG
+
+    vectorstore:
+      milvus:
+        client:
+          host: "192.168.217.130"
+          port: 19530
